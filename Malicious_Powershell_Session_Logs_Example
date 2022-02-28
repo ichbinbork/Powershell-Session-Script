@@ -1,1 +1,1653 @@
 
+**********************
+Windows PowerShell transcript start
+Start time: 20220227200743
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14448
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220227200751
+**********************
+PS C:\Users\megab> ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-29A2VG3
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Unknown adapter Yerel Ağ Bağlantısı:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9 for OpenVPN Connect
+   Physical Address. . . . . . . . . : 00-FF-DC-21-32-FA
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 80-FA-5B-85-14-02
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-10
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::d0fb:9dcb:9588:84bc%16(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 688521255
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Yerel Ağ Bağlantısı* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 8C-C6-81-B6-F0-9F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Yerel Ağ Bağlantısı* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 8E-C6-81-B6-F0-9E
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Kaspersky Security Data Escort Adapter
+   Physical Address. . . . . . . . . : 00-FF-C5-D8-8E-1A
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) Wireless-AC 9462
+   Physical Address. . . . . . . . . : 3E-14-B0-9A-2C-EC
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::6cf3:eea4:d316:1651%22(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.10.10.166(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.248.0
+   Lease Obtained. . . . . . . . . . : 27 Şubat 2022 Pazar 19:55:27
+   Lease Expires . . . . . . . . . . : 28 Şubat 2022 Pazartesi 07:55:27
+   Default Gateway . . . . . . . . . : 10.10.10.1
+   DHCP Server . . . . . . . . . . . : 10.10.10.1
+   DHCPv6 IAID . . . . . . . . . . . : 143443585
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+                                       195.175.39.50
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Ağ Bağlantısı:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 8C-C6-81-B6-F0-A2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter vEthernet (Ethernet):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-15-5D-C5-A2-C2
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::51f9:5644:d4d9:a21e%54(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.23.32.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 905975133
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #2
+   Physical Address. . . . . . . . . : 00-15-5D-46-04-0D
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::84e0:5a85:e957:c984%82(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.30.224.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1375737181
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (VirtualBox Host):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #3
+   Physical Address. . . . . . . . . : 00-15-5D-A1-48-64
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::a1a3:8834:b02c:86bf%89(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.29.192.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1493177693
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (Ethernet 2):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #4
+   Physical Address. . . . . . . . . : 00-15-5D-94-04-DE
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::10dd:693e:27ae:fe52%96(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.23.208.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1610618205
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter vEthernet (Wi-Fi):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #5
+   Physical Address. . . . . . . . . : 00-15-5D-55-11-FC
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::2cdb:f0c3:8fc5:7a40%103(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.21.240.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 1728058717
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-3F-15-F0-80-FA-5B-85-14-02
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220225160111
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9608
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225160111
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+20220219
+20220220
+20220221
+20220222
+20220223
+20220224
+20220225
+log
+LOG.txt File size: 2.97 Kilobytes Less than 10 Kilobytes it looks safe
+**********************
+Command start time: 20220225160207
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+C:\Logs\WindowsPowershelLogs\log
+LOG.txt File size: 2.97 Kilobytes Less than 10 Kilobytes it looks safe
+**********************
+Command start time: 20220225161117
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225161151
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRunnerFile.py"
+
+**********************
+Command start time: 20220225161321
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+PowerShell_transcript.DESKTOP-29A2VG3.qjO5lXyP.20210412015434.txt
+PowerShell_transcript.DESKTOP-29A2VG3.VtHuoxhZ.20210412015409.txt
+tempCodeRunnerFile.py
+LOG.txt File size: 2.97 Kilobytes Less than 10 Kilobytes it looks safe
+**********************
+Command start time: 20220225161602
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225161814
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225161816
+**********************
+PS C:\Logs\WindowsPowershelLogs\log>     size = os.path.getsize(path)
+**********************
+Windows PowerShell transcript start
+Start time: 20220225161817
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9608
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225161817
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'size' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+size : The term 'size' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     size = os.path.getsize(path)
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (size:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+size : The term 'size' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     size = os.path.getsize(path)
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (size:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+size : The term 'size' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     size = os.path.getsize(path)
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (size:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225161835
+**********************
+PS C:\Logs\WindowsPowershelLogs\log>     return sizepython -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRunnerFile.py"
+**********************
+Windows PowerShell transcript start
+Start time: 20220225161835
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9608
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225161835
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'sizepython' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+sizepython : The term 'sizepython' is not recognized as the name of a cmdlet, function, script file, or operable program
+. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:12
++     return sizepython -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRu ...
++            ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sizepython:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sizepython : The term 'sizepython' is not recognized as the name of a cmdlet, function, script file, or operable program
+. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:12
++     return sizepython -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRu ...
++            ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sizepython:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+sizepython : The term 'sizepython' is not recognized as the name of a cmdlet, function, script file, or operab
+le program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+ again.
+At line:1 char:12
++     return sizepython -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRu ...
++            ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sizepython:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225161853
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162126
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162229
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162547
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162605
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162655
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225162913
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225163029
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225163219
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225164713
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225164843
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225164930
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225165137
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225165449
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225165506
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225165602
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225165708
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225175754
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225175852
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> TerminatingError(): "The pipeline has been stopped."
+**********************
+Command start time: 20220225180059
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225180101
+**********************
+PS C:\Logs\WindowsPowershelLogs\log>                 new_dir_path = os.path.join(folder_path,new_log_file_name)
+At line:1 char:56
++                 new_dir_path = os.path.join(folder_path,new_log_file_ ...
++                                                        ~
+Missing argument in parameter list.
+At line:1 char:56
++                 new_dir_path = os.path.join(folder_path,new_log_file_ ...
++                                                        ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+**********************
+Command start time: 20220225180102
+**********************
+PS C:\Logs\WindowsPowershelLogs\log>                 os.mkdir(new_dir_path)
+**********************
+Windows PowerShell transcript start
+Start time: 20220225180102
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9608
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225180102
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'new_dir_path' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+new_dir_path : The term 'new_dir_path' is not recognized as the name of a cmdlet, function, script file, or operable pro
+gram. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:26
++                 os.mkdir(new_dir_path)
++                          ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (new_dir_path:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+new_dir_path : The term 'new_dir_path' is not recognized as the name of a cmdlet, function, script file, or operable pro
+gram. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:26
++                 os.mkdir(new_dir_path)
++                          ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (new_dir_path:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+new_dir_path : The term 'new_dir_path' is not recognized as the name of a cmdlet, function, script file, or op
+erable program. Check the spelling of the name, or if a path was included, verify that the path is correct and
+ try again.
+At line:1 char:26
++                 os.mkdir(new_dir_path)
++                          ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (new_dir_path:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225180117
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\tempCodeRunnerFile.py"
+
+**********************
+Command start time: 20220225180149
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225180214
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225181221
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+**********************
+Command start time: 20220225181249
+**********************
+PS C:\Logs\WindowsPowershelLogs\log> python -u "c:\Logs\WindowsPowershelLogs\log\delete3.py"
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220225003128
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 13300
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20220225003129
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 13300
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225003129
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor.""
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+**********************
+Command start time: 20220225003129
+**********************
+PS>Get-PhysicalDisk | Format-List
+
+
+ObjectId                         : {1}\\DESKTOP-29A2VG3\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk
+                                   .ObjectId="{bbc250a9-2500-11eb-aa9b-806e6f6e6963}:PD:{3c1774fd-1386-004c-ea45-358486
+                                   379f24}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : 600224808198F3B1E84E110B4580924B
+Description                      :
+FriendlyName                     : Msft Virtual Disk
+HealthStatus                     : Healthy
+Manufacturer                     : Msft
+Model                            : Virtual Disk
+OperationalDetails               :
+OperationalStatus                : OK
+PhysicalLocation                 : C:\ProgramData\Microsoft\Windows\Containers\BaseImages\359b47a8-bb1b-4736-bbe9-f9037
+                                   6481e6b\BaseLayer.vhdx
+SerialNumber                     :
+AdapterSerialNumber              :
+AllocatedSize                    : 8588886016
+BusType                          : File Backed Virtual
+CannotPoolReason                 : Insufficient Capacity
+CanPool                          : False
+DeviceId                         : 1
+EnclosureNumber                  :
+FirmwareVersion                  : 1.0
+IsIndicationEnabled              :
+IsPartial                        : True
+LogicalSectorSize                : 512
+MediaType                        : SSD
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 8589934592
+SlotNumber                       :
+SoftwareVersion                  :
+SpindleSpeed                     : 0
+StoragePoolUniqueId              :
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Retired...}
+UniqueIdFormat                   : FCPH Name
+Usage                            : Auto-Select
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+ClassName                        : MSFT_PhysicalDisk
+
+ObjectId                         : {1}\\DESKTOP-29A2VG3\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk
+                                   .ObjectId="{bbc250a9-2500-11eb-aa9b-806e6f6e6963}:PD:{922a0976-8b2e-013b-149d-9b58d7
+                                   b10f51}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.E8238FA6BF530001001B448B49AD2AE8
+Description                      :
+FriendlyName                     : WDC WDS500G2B0C-00PXH0
+HealthStatus                     : Healthy
+Manufacturer                     :
+Model                            : WDC WDS500G2B0C-00PXH0
+OperationalDetails               :
+OperationalStatus                : OK
+PhysicalLocation                 : PCI Slot 20 : Bus 6 : Device 0 : Function 0 : Adapter 0
+SerialNumber                     : E823_8FA6_BF53_0001_001B_448B_49AD_2AE8.
+AdapterSerialNumber              : 203916803946        _0001
+AllocatedSize                    : 500106813440
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 211070WD
+IsIndicationEnabled              :
+IsPartial                        : True
+LogicalSectorSize                : 512
+MediaType                        : SSD
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 500107862016
+SlotNumber                       :
+SoftwareVersion                  :
+SpindleSpeed                     : 0
+StoragePoolUniqueId              :
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Retired...}
+UniqueIdFormat                   : SCSI Name String
+Usage                            : Auto-Select
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+ClassName                        : MSFT_PhysicalDisk
+
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220225003133
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 13300
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225003133
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor.""
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+**********************
+Command start time: 20220225003133
+**********************
+PS>exit
+**********************
+Windows PowerShell transcript end
+End time: 20220225003133
+**********************
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220225153141
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11556
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225153144
+**********************
+PS C:\Users\megab> ls
+
+
+    Directory: C:\Users\megab
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7.05.2021     15:45                .aws
+d-----         7.05.2021     15:45                .azure
+d-----        16.02.2022     02:05                .cache
+d-----        28.11.2021     16:54                .docker
+d-----        23.02.2022     02:18                .matplotlib
+d-----        24.11.2021     19:22                .mysterium
+d-----         4.06.2021     12:13                .Origin
+d-----         4.06.2021     12:13                .QtWebEngineProcess
+d-----         5.01.2022     16:37                .ssh
+d-----        15.02.2022     00:00                .VirtualBox
+d-----         7.02.2021     21:06                .vscode
+d-----         4.10.2021     18:58                .Xilinx
+d-r---        12.11.2020     14:13                3D Objects
+d-----        12.11.2020     14:39                ansel
+d-----         9.12.2021     12:52                Cisco Packet Tracer 8.1.0
+d-r---        12.11.2020     14:13                Contacts
+d-r---        25.02.2022     13:42                Desktop
+d-----         1.12.2021     23:47                Documents
+d-r---        24.02.2022     22:24                Downloads
+d-r---        12.11.2020     14:13                Favorites
+d-----        23.02.2022     22:38                hashcat-6.1.1
+d-----        12.11.2020     14:21                Intel
+d-r---        12.11.2020     14:13                Links
+d-r---        12.11.2020     14:13                Music
+dar--l         7.01.2022     22:02                OneDrive
+d-----        28.10.2021     02:33                Pictures
+d-r---        12.11.2020     14:13                Saved Games
+d-r---        21.01.2022     21:38                Searches
+d-----        19.03.2021     22:55                source
+d-----         8.02.2022     02:56                sysmon-config
+d-r---        19.02.2022     23:05                Videos
+d-----        24.01.2022     01:52                VirtualBox VMs
+d-----         1.02.2021     18:30                volatility3-1.0.0
+-a----        13.02.2022     19:52            918 .bash_history
+-a----        14.02.2022     04:19            215 .gitconfig
+-a----         3.05.2021     17:03            560 .html
+-a----        19.12.2021     23:14             20 .lesshst
+-a----        29.07.2021     02:08             33 .node_repl_history
+-a----         9.12.2021     12:52            176 .packettracer
+-a----        18.05.2021     03:25            218 .recently-used.xbel
+-a----        24.11.2021     19:29            489 0xf78b4f91989860f87a86876bd53e27cabc44612a.json
+-a----         3.05.2021     17:03         131190 DESKTOP-29A2VG3.html
+
+
+**********************
+Command start time: 20220225153152
+**********************
+PS C:\Users\megab> cd .\Desktop\
+**********************
+Command start time: 20220225153153
+**********************
+PS C:\Users\megab\Desktop> ls
+
+
+    Directory: C:\Users\megab\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.02.2022     16:52                AWS
+d-----        12.01.2022     20:09                CCNA-Int_to_networks
+d-----         6.02.2022     16:25                Cyberops
+da----         5.12.2021     15:07                Docker
+da----        15.12.2021     01:02                HTML
+da----        30.11.2021     00:14                Linux Cheat Sheet
+dar---        14.02.2022     00:33                Me
+da----        20.02.2022     23:44                PDF
+da----        25.02.2022     01:35                Python
+d-----        20.02.2022     02:40                RedLine
+d-----        14.02.2022     04:19                Telegram_bot
+-a----         5.02.2022     04:09        1451656 analyze.pcapng
+-a----        28.10.2021     02:12           2422 Authy Desktop.lnk
+-a----        12.11.2020     16:41           1558 Control Center 3.0.lnk
+-a----        24.01.2022     01:04     3773862912 cyberops_workstation.ova
+-a----        21.02.2022     19:39             42 CYBEROPS__Need-to-know.txt
+-a----         7.01.2022     22:03           1587 Dosyalarım nerede.lnk
+-a----        17.01.2022     14:59        1156681 erasmus-sik-sorulan-soralar.pdf
+-a----         3.01.2022     21:43         132528 netstat.txt
+-a----         3.01.2022     21:13          56127 NETSTATCommand.pdf
+-a----         5.01.2022     13:00           8292 netstat_home_network.txt
+-a----        25.02.2022     12:22          34034 sparta.png
+-a----        14.09.2021     13:21           2054 SQL INJECTION CHEAT SHEET.txt
+-a----         2.12.2021     12:06           1195 Telegram.lnk
+-a----        19.10.2021     01:48           2268 WhatsApp.lnk
+-a----        23.01.2022     01:35        2367817 _Chat.zip
+
+
+**********************
+Command start time: 20220225153207
+**********************
+PS C:\Users\megab\Desktop> .\binance
+**********************
+Windows PowerShell transcript start
+Start time: 20220225153207
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11556
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225153207
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term '.\binance' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+.\binance : The term '.\binance' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\binance
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\binance:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\binance : The term '.\binance' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\binance
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\binance:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\binance : The term '.\binance' is not recognized as the name of a cmdlet, function, script file, or operable program.
+ Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\binance
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\binance:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225153225
+**********************
+PS C:\Users\megab\Desktop> cd ..
+**********************
+Command start time: 20220225153225
+**********************
+PS C:\Users\megab> cd ..
+**********************
+Command start time: 20220225153227
+**********************
+PS C:\Users> cd ..
+**********************
+Command start time: 20220225153229
+**********************
+PS C:\> cd '.\Program Files\'
+**********************
+Command start time: 20220225153230
+**********************
+PS C:\Program Files> ls
+
+
+    Directory: C:\Program Files
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1.12.2021     23:46                Azure Data Studio
+d-----        24.02.2022     16:52                Binance
+d-----         6.12.2021     02:45                BraveSoftware
+d-----        17.01.2021     16:19                Canon
+d-----         4.04.2021     16:36                Common Files
+d-----        12.11.2020     14:25                Creative
+d-----        26.01.2022     18:00                Docker
+d-----        12.03.2021     12:23                Epic Games
+d-----        31.01.2022     15:19                Git
+d-----        12.11.2020     14:33                Google
+d-----        11.02.2022     14:14                Hyper-V
+d-----        12.11.2020     14:25                Intel
+d-----        19.09.2021     15:24                Internet Explorer
+d-----         7.01.2022     01:12                JetBrains
+d-----        24.02.2022     22:25                Logitech Gaming Software
+d-----        19.02.2022     18:36                Microsoft Office
+d-----        12.11.2020     16:30                Microsoft Office 15
+d-----        19.02.2022     23:35                Microsoft OneDrive
+d-----         7.01.2022     01:04                Microsoft SQL Server
+d-----        19.02.2022     15:30                Microsoft Update Health Tools
+d-----         7.12.2019     12:14                ModifiableWindowsApps
+d-----        19.02.2022     23:35                Mozilla Firefox
+d-----        24.11.2020     12:58                MSBuild
+d-----        31.01.2022     15:21                nodejs
+d-----         9.01.2022     00:38                Notepad++
+d-----        28.11.2021     03:34                Npcap
+d-----        19.02.2022     22:58                NVIDIA Corporation
+d-----        20.12.2020     15:57                obs-studio
+d-----         4.02.2022     13:33                OpenVPN Connect
+d-----        19.01.2021     13:19                Oracle
+d-----         6.02.2022     00:15                Process Hacker 2
+d-----        24.11.2020     12:58                Reference Assemblies
+d-----        14.03.2021     11:53                Rockstar Games
+d-----        26.01.2022     18:01                Sandboxie-Plus
+d-----        31.01.2022     15:24                Sublime Text 3
+d-----        13.01.2022     17:12                Sumo Logic Collector
+d-----        19.02.2022     23:36                TeamViewer
+d-----        11.04.2021     02:00                Windows Defender
+d-----        11.02.2022     14:14                Windows Defender Advanced Threat Protection
+d-----        16.07.2021     16:29                Windows Mail
+d-----        15.10.2021     03:09                Windows Media Player
+d-----         7.12.2019     17:45                Windows Multimedia Platform
+d-----        12.11.2020     19:06                Windows NT
+d-----        11.04.2021     02:00                Windows Photo Viewer
+d-----         7.12.2019     17:45                Windows Portable Devices
+d-----         7.12.2019     12:31                Windows Security
+d-----         7.12.2019     12:31                WindowsPowerShell
+d-----        17.11.2020     01:11                WinRAR
+d-----         9.01.2022     00:41                Wireshark
+
+
+**********************
+Command start time: 20220225153237
+**********************
+PS C:\Program Files> cd .\Binance\
+**********************
+Command start time: 20220225153250
+**********************
+PS C:\Program Files\Binance> .\Binance.exe
+**********************
+Command start time: 20220225153814
+**********************
+PS C:\Program Files\Binance> c
+**********************
+Windows PowerShell transcript start
+Start time: 20220225153814
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11556
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225153814
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'c' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+c : The term 'c' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelli
+ng of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c
++ ~
+    + CategoryInfo          : ObjectNotFound: (c:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c : The term 'c' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelli
+ng of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c
++ ~
+    + CategoryInfo          : ObjectNotFound: (c:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c : The term 'c' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spell
+ing of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c
++ ~
+    + CategoryInfo          : ObjectNotFound: (c:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225153817
+**********************
+PS C:\Program Files\Binance> clear
+
+**********************
+Windows PowerShell transcript start
+Start time: 20210412015346
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10992
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210412015348
+**********************
+PS C:\Users\megab> Disable-WindowsOptionalFeature -Online -FeatureName
+MicrosoftWindowsPowerShellV2
+**********************
+Command start time: 20210412015348
+**********************
+PS C:\Users\megab> TerminatingError(Disable-WindowsOptionalFeature): "Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.String[]' and try again."
+**********************
+Windows PowerShell transcript start
+Start time: 20210412015348
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10992
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210412015348
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.String[]' and try again."
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.St
+ring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.St
+ring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.S
+tring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+
+**********************
+Windows PowerShell transcript start
+Start time: 20210412015348
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10992
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210412015348
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'MicrosoftWindowsPowerShellV2' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+MicrosoftWindowsPowerShellV2 : The term 'MicrosoftWindowsPowerShellV2' is not recognized as the name of a cmdlet, functi
+on, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is
+ correct and try again.
+At line:2 char:1
++ MicrosoftWindowsPowerShellV2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MicrosoftWindowsPowerShellV2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+MicrosoftWindowsPowerShellV2 : The term 'MicrosoftWindowsPowerShellV2' is not recognized as the name of a cmdlet, functi
+on, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is
+ correct and try again.
+At line:2 char:1
++ MicrosoftWindowsPowerShellV2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MicrosoftWindowsPowerShellV2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+MicrosoftWindowsPowerShellV2 : The term 'MicrosoftWindowsPowerShellV2' is not recognized as the name of a cmdlet, funct
+ion, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
+At line:2 char:1
++ MicrosoftWindowsPowerShellV2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MicrosoftWindowsPowerShellV2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20210412015356
+**********************
+PS C:\Users\megab> Disable-WindowsOptionalFeature -Online -FeatureName
+
+>> TerminatingError(Disable-WindowsOptionalFeature): "Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.String[]' and try again."
+**********************
+Windows PowerShell transcript start
+Start time: 20210412015356
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10992
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210412015356
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.String[]' and try again."
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.St
+ring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.St
+ring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+Disable-WindowsOptionalFeature : Missing an argument for parameter 'FeatureName'. Specify a parameter of type 'System.S
+tring[]' and try again.
+At line:1 char:40
++ Disable-WindowsOptionalFeature -Online -FeatureName
++                                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Disable-WindowsOptionalFeature], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.Dism.Commands.DisableWindowsOptionalFeatureCommand
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220226123031
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 16828
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20220226123032
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 16828
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220226123032
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor.""
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+**********************
+Command start time: 20220226123032
+**********************
+PS>Get-PhysicalDisk | Format-List
+
+
+ObjectId                         : {1}\\DESKTOP-29A2VG3\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk
+                                   .ObjectId="{bbc250a9-2500-11eb-aa9b-806e6f6e6963}:PD:{3c1774fd-1386-004c-ea45-358486
+                                   379f24}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : 600224808198F3B1E84E110B4580924B
+Description                      :
+FriendlyName                     : Msft Virtual Disk
+HealthStatus                     : Healthy
+Manufacturer                     : Msft
+Model                            : Virtual Disk
+OperationalDetails               :
+OperationalStatus                : OK
+PhysicalLocation                 : C:\ProgramData\Microsoft\Windows\Containers\BaseImages\359b47a8-bb1b-4736-bbe9-f9037
+                                   6481e6b\BaseLayer.vhdx
+SerialNumber                     :
+AdapterSerialNumber              :
+AllocatedSize                    : 8588886016
+BusType                          : File Backed Virtual
+CannotPoolReason                 : Insufficient Capacity
+CanPool                          : False
+DeviceId                         : 1
+EnclosureNumber                  :
+FirmwareVersion                  : 1.0
+IsIndicationEnabled              :
+IsPartial                        : True
+LogicalSectorSize                : 512
+MediaType                        : SSD
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 8589934592
+SlotNumber                       :
+SoftwareVersion                  :
+SpindleSpeed                     : 0
+StoragePoolUniqueId              :
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Retired...}
+UniqueIdFormat                   : FCPH Name
+Usage                            : Auto-Select
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+ClassName                        : MSFT_PhysicalDisk
+
+ObjectId                         : {1}\\DESKTOP-29A2VG3\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk
+                                   .ObjectId="{bbc250a9-2500-11eb-aa9b-806e6f6e6963}:PD:{922a0976-8b2e-013b-149d-9b58d7
+                                   b10f51}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.E8238FA6BF530001001B448B49AD2AE8
+Description                      :
+FriendlyName                     : WDC WDS500G2B0C-00PXH0
+HealthStatus                     : Healthy
+Manufacturer                     :
+Model                            : WDC WDS500G2B0C-00PXH0
+OperationalDetails               :
+OperationalStatus                : OK
+PhysicalLocation                 : PCI Slot 20 : Bus 6 : Device 0 : Function 0 : Adapter 0
+SerialNumber                     : E823_8FA6_BF53_0001_001B_448B_49AD_2AE8.
+AdapterSerialNumber              : 203916803946        _0001
+AllocatedSize                    : 500106813440
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 211070WD
+IsIndicationEnabled              :
+IsPartial                        : True
+LogicalSectorSize                : 512
+MediaType                        : SSD
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 500107862016
+SlotNumber                       :
+SoftwareVersion                  :
+SpindleSpeed                     : 0
+StoragePoolUniqueId              :
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Retired...}
+UniqueIdFormat                   : SCSI Name String
+Usage                            : Auto-Select
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+ClassName                        : MSFT_PhysicalDisk
+
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220226123036
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: powershell.exe -NoLogo -InputFormat Text -NoExit -ExecutionPolicy Unrestricted -Command -
+Process ID: 16828
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220226123036
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor.""
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+Exception calling "ReadLine" with "2" argument(s): "Belirtilen metot desteklenmiyor."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NotSupportedException
+**********************
+Command start time: 20220226123036
+**********************
+PS>exit
+**********************
+Windows PowerShell transcript end
+End time: 20220226123036
+**********************
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220225165330
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 15348
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225165334
+**********************
+PS C:\Users\megab> whoami
+desktop-29a2vg3\megab
+**********************
+Command start time: 20220225165335
+**********************
+PS C:\Users\megab> w
+**********************
+Windows PowerShell transcript start
+Start time: 20220225165335
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 15348
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225165335
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'w' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+w : The term 'w' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelli
+ng of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ w
++ ~
+    + CategoryInfo          : ObjectNotFound: (w:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+w : The term 'w' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelli
+ng of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ w
++ ~
+    + CategoryInfo          : ObjectNotFound: (w:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+w : The term 'w' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spell
+ing of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ w
++ ~
+    + CategoryInfo          : ObjectNotFound: (w:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225165337
+**********************
+PS C:\Users\megab> dir
+
+
+    Directory: C:\Users\megab
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7.05.2021     15:45                .aws
+d-----         7.05.2021     15:45                .azure
+d-----        16.02.2022     02:05                .cache
+d-----        28.11.2021     16:54                .docker
+d-----        23.02.2022     02:18                .matplotlib
+d-----        24.11.2021     19:22                .mysterium
+d-----         4.06.2021     12:13                .Origin
+d-----         4.06.2021     12:13                .QtWebEngineProcess
+d-----         5.01.2022     16:37                .ssh
+d-----        15.02.2022     00:00                .VirtualBox
+d-----         7.02.2021     21:06                .vscode
+d-----         4.10.2021     18:58                .Xilinx
+d-r---        12.11.2020     14:13                3D Objects
+d-----        12.11.2020     14:39                ansel
+d-----         9.12.2021     12:52                Cisco Packet Tracer 8.1.0
+d-r---        12.11.2020     14:13                Contacts
+d-r---        25.02.2022     13:42                Desktop
+d-----         1.12.2021     23:47                Documents
+d-r---        24.02.2022     22:24                Downloads
+d-r---        12.11.2020     14:13                Favorites
+d-----        23.02.2022     22:38                hashcat-6.1.1
+d-----        12.11.2020     14:21                Intel
+d-r---        12.11.2020     14:13                Links
+d-r---        12.11.2020     14:13                Music
+dar--l         7.01.2022     22:02                OneDrive
+d-----        28.10.2021     02:33                Pictures
+d-r---        12.11.2020     14:13                Saved Games
+d-r---        21.01.2022     21:38                Searches
+d-----        19.03.2021     22:55                source
+d-----         8.02.2022     02:56                sysmon-config
+d-r---        19.02.2022     23:05                Videos
+d-----        24.01.2022     01:52                VirtualBox VMs
+d-----         1.02.2021     18:30                volatility3-1.0.0
+-a----        13.02.2022     19:52            918 .bash_history
+-a----        14.02.2022     04:19            215 .gitconfig
+-a----         3.05.2021     17:03            560 .html
+-a----        19.12.2021     23:14             20 .lesshst
+-a----        29.07.2021     02:08             33 .node_repl_history
+-a----         9.12.2021     12:52            176 .packettracer
+-a----        18.05.2021     03:25            218 .recently-used.xbel
+-a----        24.11.2021     19:29            489 0xf78b4f91989860f87a86876bd53e27cabc44612a.json
+-a----         3.05.2021     17:03         131190 DESKTOP-29A2VG3.html
+
+
+**********************
+Command start time: 20220225165341
+**********************
+PS C:\Users\megab> last
+**********************
+Windows PowerShell transcript start
+Start time: 20220225165341
+Username: DESKTOP-29A2VG3\megab
+RunAs User: DESKTOP-29A2VG3\megab
+Configuration Name: 
+Machine: DESKTOP-29A2VG3 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 15348
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220225165341
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'last' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+last : The term 'last' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ last
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (last:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+last : The term 'last' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ last
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (last:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+last : The term 'last' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+ spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ last
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (last:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20220225165351
+**********************
+PS C:\Users\megab> Get-Disk
+
+Number Friendly Name Serial Number                    HealthStatus         OperationalStatus      Total Size Partition
+                                                                                                             Style
+------ ------------- -------------                    ------------         -----------------      ---------- ----------
+0      WDC WDS500... E823_8FA6_BF53_0001_001B_448B... Healthy              Online                  465.76 GB GPT
+
+
+**********************
+Command start time: 20220225165409
+**********************
+PS C:\Users\megab> Get-Disk | Format-List
+
+
+UniqueId           : eui.E8238FA6BF530001001B448B49AD2AE8
+Number             : 0
+Path               : \\?\scsi#disk&ven_nvme&prod_wdc_wds500g2b0c-#5&31d81223&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91e
+                     fb8b}
+Manufacturer       :
+Model              : WDC WDS500G2B0C-00PXH0
+SerialNumber       : E823_8FA6_BF53_0001_001B_448B_49AD_2AE8.
+Size               : 465.76 GB
+AllocatedSize      : 500106813440
+LogicalSectorSize  : 512
+PhysicalSectorSize : 4096
+NumberOfPartitions : 4
+PartitionStyle     : GPT
+IsReadOnly         : False
+IsSystem           : True
+IsBoot             : True
+
+
+
+**********************
+Command start time: 20220225165422
+**********************
+PS C:\Users\megab> exit
+**********************
+Windows PowerShell transcript end
+End time: 20220225165422
+**********************
